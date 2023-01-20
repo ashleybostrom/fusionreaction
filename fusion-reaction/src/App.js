@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact.js';
 import Home from './pages/Home';
 
 function App() {

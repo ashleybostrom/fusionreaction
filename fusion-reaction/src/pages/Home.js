@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Quote from '../assets/01-quote.png';
-import Moviegram from '../assets/moveigram.png';
+import Moviegram from '../assets/moviegram.png';
 import Groom from '../assets/gogroomhomepage.png';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
