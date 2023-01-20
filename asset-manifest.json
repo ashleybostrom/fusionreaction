@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e3afce0.css",
+    "main.js": "/static/js/main.e67ee9ca.js",
+    "static/media/ash headshot png.png": "/static/media/ash headshot png.21b4cc926d53f8eb2c5d.png",
+    "static/media/moviegram.png": "/static/media/moviegram.f9a02f6905bb35c0e371.png",
+    "static/media/gogroomhomepage.png": "/static/media/gogroomhomepage.936592bbecdcd85f7fb7.png",
+    "static/media/01-quote.png": "/static/media/01-quote.a24a65214779df2d8e47.png",
+    "index.html": "/index.html",
+    "main.0e3afce0.css.map": "/static/css/main.0e3afce0.css.map",
+    "main.e67ee9ca.js.map": "/static/js/main.e67ee9ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e3afce0.css",
+    "static/js/main.e67ee9ca.js"
+  ]
+}
