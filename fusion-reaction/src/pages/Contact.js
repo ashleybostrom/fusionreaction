@@ -36,6 +36,11 @@ export default function Contact() {
                 </div>
                 <br /><br />
                 <footer>
+                <div className="card text-black fixed-bottom align-items-center">
+                        <div className="card-body">
+                            <h4 className="card-title text-muted">ashleyjeanbostrom@gmail.com</h4>
+                        </div>
+                    </div>
                 </footer>
             </div>
         </div>
