@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom';
-import Contact from './pages/Contact.js';
+import Contact from './pages/Contact';
 import Home from './pages/Home';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router basename='/'>
       <>
         <Route exact path='/' component={Home} />
-        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/Contact' component={Contact} />
       </>
     </Router>
   );
