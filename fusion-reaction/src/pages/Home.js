@@ -43,19 +43,29 @@ export default function Home() {
                 </Row>
                 <hr className="my-2" />
                 <Row>
-                    <img src={Groom} h2 className="display-4 pl-3 text-right " alt="A screenshot of GoGroom app" /> GoGroom
-                    <Col sm={7}>
+                <Col sm={6}>
+                        <figure className="figure" />
+                        <img src={Groom} className="figure-img img-fluid d-block shadow-sm p-3 mb-5 bg-white rounded" alt="A screenshot of GoGroom App" />
+                        <figcaption className="figure-caption">A screenshot of our deployed GoGroom group project application.</figcaption>
+                    </Col>
+                    <Col sm={6} my-auto>
                         <br /> <br /><br /> <br />
-                        <p>This group project brought together all of the knowledge throughout the Bootcamp. It was a fun way to connect, help each other solve problems we couldn't solve on our own, and featured hand-drawn artwork by our designer and artist Emm.</p><br />
-                        <p>Deployed Application: <a href='https://shrouded-lowlands-65870.herokuapp.com/'>https://shrouded-lowlands-65870.herokuapp.com/</a></p>
-                        <p>Github Repository: <a href='https://github.com/JennyBloemen/GoGroom/'>https://github.com/JennyBloemen/GoGroom/</a>
-                        </p>
+                    This MERN applcation was the culmination of our Bootcamp course bringing together all of the technologies we learned, including GraphQL, Node, Express, and React. <br /><br />
+                        <p>Deployed Application: <a href='https://shrouded-lowlands-65870.herokuapp.com/'>Go Groom</a></p>
+                        <p>Github Repository: <a href='https://github.com/JennyBloemen/GoGroom/'>https://github.com/JennyBloemen/GoGroom/</a></p>
                     </Col>
                 </Row>
             </div>
             <br /><br /><br />
             <footer>
-                <img src={Quote} div className="card text-center" alt="A quote to live by as a developer" />
+            <div className="card text-black fixed-bottom align-items-center">
+                    <div className="card-body">
+                        <h4 className="card-title text-muted">ashleyjeanbostrom@gmail.com</h4>
+                        <div classname="card-text">
+                        <img src={Quote} div className="card text-center" alt="A quote to live by as a developer" />
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
     )
